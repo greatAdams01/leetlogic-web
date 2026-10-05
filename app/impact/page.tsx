@@ -1,5 +1,6 @@
 import { Cta } from "../../components/site";
-export const metadata = { title: "Our impact" };
+import { pageMetadata } from "../../lib/seo";
+export const metadata = pageMetadata("/impact");
 
 export default function ImpactPage() {
   return (
@@ -76,7 +77,17 @@ export default function ImpactPage() {
         </div>
         <div className="solution-mosaic-171" data-name="Solution mosaic">
           <div className="farmer-in-field-172" data-name="Farmer in field">
-            <img alt="Farmer In Field" className="text-13" src="/figma/adb0b.png" loading="lazy" />
+            <img
+              alt="Farmer In Field"
+              className="text-13"
+              src="/optimized/adb0b.webp"
+              width={928}
+              height={1152}
+              decoding="async"
+              srcSet="/optimized/adb0b-480.webp 480w, /optimized/adb0b-800.webp 800w, /optimized/adb0b.webp 928w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+              loading="lazy"
+            />
           </div>
           <div className="mission-detail-42" data-name="Solution cards">
             <div className="category-cards-52" data-name="Solution row">
@@ -157,7 +168,17 @@ export default function ImpactPage() {
         </div>
         <div className="testimonial-75" data-name="Testimonial">
           <div className="portrait-76" data-name="Portrait">
-            <img alt="Portrait" className="text-13" src="/figma/faf1a.png" loading="lazy" />
+            <img
+              alt="Portrait"
+              className="text-13"
+              src="/optimized/faf1a.webp"
+              width={928}
+              height={1152}
+              decoding="async"
+              srcSet="/optimized/faf1a-480.webp 480w, /optimized/faf1a-800.webp 800w, /optimized/faf1a.webp 928w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+              loading="lazy"
+            />
           </div>
           <div className="quote-panel-77" data-name="Quote panel">
             <p className="text-78">“</p>

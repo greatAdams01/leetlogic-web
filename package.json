@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev --port 3001",
     "build": "next build",
+    "brand:generate": "node scripts/generate-brand-assets.mjs",
+    "images:optimize": "node scripts/optimize-images.mjs",
     "start": "next start --port 3001",
     "typecheck": "tsc --noEmit",
     "lint": "tsc --noEmit"
@@ -18,6 +20,7 @@
     "@types/node": "^24.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "typescript": "^5.9.0"
+    "typescript": "^5.9.0",
+    "sharp": "^0.35.5"
   }
 }

@@ -1,12 +1,24 @@
 import { Cta } from "../components/site";
-export const metadata = { title: "Sell local. Reach global." };
+import { pageMetadata } from "../lib/seo";
+export const metadata = pageMetadata("/");
 
 export default function HomePage() {
   return (
     <div className="leetlogic-home-1" data-name="Leetlogic — Home">
       <div className="hero-section-2" data-name="Hero section">
         <div className="hero-3" data-name="Hero">
-          <img alt="Hero" className="text-4" src="/figma/5b3db.png" loading="eager" />
+          <img
+            alt="Hero"
+            className="text-4"
+            src="/optimized/5b3db.webp"
+            width={1376}
+            height={768}
+            decoding="async"
+            srcSet="/optimized/5b3db-480.webp 480w, /optimized/5b3db-800.webp 800w, /optimized/5b3db.webp 1376w"
+            sizes="calc(100vw - 32px)"
+            fetchPriority="high"
+            loading="eager"
+          />
           <div className="green-overlay-5" data-name="Green overlay" />
           <div className="hero-content-6" data-name="Hero content">
             <div className="hero-copy-7" data-name="Hero copy">
@@ -23,7 +35,12 @@ export default function HomePage() {
                 <img
                   alt="Mission Thumbnail"
                   className="text-13"
-                  src="/figma/cbf2d.png"
+                  src="/optimized/cbf2d.webp"
+                  width={512}
+                  height={341}
+                  decoding="async"
+                  srcSet="/optimized/cbf2d-480.webp 480w, /optimized/cbf2d.webp 512w"
+                  sizes="(max-width: 767px) 80px, 152px"
                   loading="lazy"
                 />
               </div>
@@ -31,34 +48,114 @@ export default function HomePage() {
                 <div className="farmer-community-15" data-name="Farmer community">
                   <div className="avatars-16" data-name="Avatars">
                     <div className="avatar-17" data-name="Avatar">
-                      <img alt="" className="text-18" src="/figma/102eb.png" loading="lazy" />
+                      <img
+                        alt=""
+                        className="text-18"
+                        src="/optimized/102eb.webp"
+                        width={72}
+                        height={72}
+                        decoding="async"
+                        loading="lazy"
+                      />
                     </div>
                     <div className="avatar-17" data-name="Avatar">
-                      <img alt="" className="text-18" src="/figma/e4105.png" loading="lazy" />
+                      <img
+                        alt=""
+                        className="text-18"
+                        src="/optimized/e4105.webp"
+                        width={72}
+                        height={72}
+                        decoding="async"
+                        loading="lazy"
+                      />
                     </div>
                     <div className="avatar-17" data-name="Avatar">
-                      <img alt="" className="text-18" src="/figma/77822.png" loading="lazy" />
+                      <img
+                        alt=""
+                        className="text-18"
+                        src="/optimized/77822.webp"
+                        width={72}
+                        height={72}
+                        decoding="async"
+                        loading="lazy"
+                      />
                     </div>
                     <div className="avatar-17" data-name="Avatar">
-                      <img alt="" className="text-18" src="/figma/3a3b3.png" loading="lazy" />
+                      <img
+                        alt=""
+                        className="text-18"
+                        src="/optimized/3a3b3.webp"
+                        width={72}
+                        height={72}
+                        decoding="async"
+                        loading="lazy"
+                      />
                     </div>
                     <div className="avatar-17" data-name="Avatar">
-                      <img alt="" className="text-18" src="/figma/b385c.png" loading="lazy" />
+                      <img
+                        alt=""
+                        className="text-18"
+                        src="/optimized/b385c.webp"
+                        width={72}
+                        height={72}
+                        decoding="async"
+                        loading="lazy"
+                      />
                     </div>
                     <div className="avatar-17" data-name="Avatar">
-                      <img alt="" className="text-18" src="/figma/774fb.png" loading="lazy" />
+                      <img
+                        alt=""
+                        className="text-18"
+                        src="/optimized/774fb.webp"
+                        width={72}
+                        height={72}
+                        decoding="async"
+                        loading="lazy"
+                      />
                     </div>
                     <div className="avatar-17" data-name="Avatar">
-                      <img alt="" className="text-18" src="/figma/1035b.png" loading="lazy" />
+                      <img
+                        alt=""
+                        className="text-18"
+                        src="/optimized/1035b.webp"
+                        width={72}
+                        height={72}
+                        decoding="async"
+                        loading="lazy"
+                      />
                     </div>
                     <div className="avatar-17" data-name="Avatar">
-                      <img alt="" className="text-18" src="/figma/0b87e.png" loading="lazy" />
+                      <img
+                        alt=""
+                        className="text-18"
+                        src="/optimized/0b87e.webp"
+                        width={72}
+                        height={72}
+                        decoding="async"
+                        loading="lazy"
+                      />
                     </div>
                     <div className="avatar-17" data-name="Avatar">
-                      <img alt="" className="text-18" src="/figma/0950b.png" loading="lazy" />
+                      <img
+                        alt=""
+                        className="text-18"
+                        src="/optimized/0950b.webp"
+                        width={72}
+                        height={72}
+                        decoding="async"
+                        loading="lazy"
+                      />
                     </div>
                     <div className="avatar-17" data-name="Avatar">
-                      <img alt="" className="text-18" src="/figma/56ad2.png" loading="lazy" />
+                      <img
+                        alt=""
+                        className="text-18"
+                        src="/optimized/56ad2.webp"
+                        width={72}
+                        height={72}
+                        decoding="async"
+                        loading="lazy"
+                      />
                     </div>
                     <div className="avatar-19" data-name="Avatar">
                       <p className="text-20">+5</p>
@@ -149,7 +246,12 @@ export default function HomePage() {
               <img
                 alt="Editorial Image"
                 className="text-13"
-                src="/figma/62fe6.png"
+                src="/optimized/62fe6.webp"
+                width={896}
+                height={1200}
+                decoding="async"
+                srcSet="/optimized/62fe6-480.webp 480w, /optimized/62fe6-800.webp 800w, /optimized/62fe6.webp 896w"
+                sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
                 loading="lazy"
               />
             </div>
@@ -175,7 +277,17 @@ export default function HomePage() {
             data-name="Produce category"
           >
             <div className="category-image-54" data-name="Category image">
-              <img alt="Category Image" className="text-13" src="/figma/d827c.png" loading="lazy" />
+              <img
+                alt="Category Image"
+                className="text-13"
+                src="/optimized/d827c.webp"
+                width={1152}
+                height={928}
+                decoding="async"
+                srcSet="/optimized/d827c-480.webp 480w, /optimized/d827c-800.webp 800w, /optimized/d827c.webp 1152w"
+                sizes="(max-width: 767px) calc(100vw - 76px), (max-width: 1199px) 25vw, 247px"
+                loading="lazy"
+              />
             </div>
             <div className="card-copy-55" data-name="Card copy">
               <p className="text-56">{`Grains & cereals`}</p>
@@ -188,7 +300,17 @@ export default function HomePage() {
             data-name="Produce category"
           >
             <div className="category-image-54" data-name="Category image">
-              <img alt="Category Image" className="text-13" src="/figma/984b1.png" loading="lazy" />
+              <img
+                alt="Category Image"
+                className="text-13"
+                src="/optimized/984b1.webp"
+                width={1264}
+                height={848}
+                decoding="async"
+                srcSet="/optimized/984b1-480.webp 480w, /optimized/984b1-800.webp 800w, /optimized/984b1.webp 1264w"
+                sizes="(max-width: 767px) calc(100vw - 76px), (max-width: 1199px) 25vw, 247px"
+                loading="lazy"
+              />
             </div>
             <div className="card-copy-55" data-name="Card copy">
               <p className="text-56">Root tubers</p>
@@ -201,7 +323,17 @@ export default function HomePage() {
             data-name="Produce category"
           >
             <div className="category-image-54" data-name="Category image">
-              <img alt="Category Image" className="text-13" src="/figma/955b4.png" loading="lazy" />
+              <img
+                alt="Category Image"
+                className="text-13"
+                src="/optimized/955b4.webp"
+                width={1376}
+                height={768}
+                decoding="async"
+                srcSet="/optimized/955b4-480.webp 480w, /optimized/955b4-800.webp 800w, /optimized/955b4.webp 1376w"
+                sizes="(max-width: 767px) calc(100vw - 76px), (max-width: 1199px) 25vw, 247px"
+                loading="lazy"
+              />
             </div>
             <div className="card-copy-55" data-name="Card copy">
               <p className="text-56">{`Vegetables & greens`}</p>
@@ -214,7 +346,17 @@ export default function HomePage() {
             data-name="Produce category"
           >
             <div className="category-image-54" data-name="Category image">
-              <img alt="Category Image" className="text-13" src="/figma/285c8.png" loading="lazy" />
+              <img
+                alt="Category Image"
+                className="text-13"
+                src="/optimized/285c8.webp"
+                width={1200}
+                height={896}
+                decoding="async"
+                srcSet="/optimized/285c8-480.webp 480w, /optimized/285c8-800.webp 800w, /optimized/285c8.webp 1200w"
+                sizes="(max-width: 767px) calc(100vw - 76px), (max-width: 1199px) 25vw, 247px"
+                loading="lazy"
+              />
             </div>
             <div className="card-copy-55" data-name="Card copy">
               <p className="text-56">{`Fruits & cash crops`}</p>
@@ -225,7 +367,17 @@ export default function HomePage() {
       </div>
       <div className="farmer-story-58" data-name="Farmer story">
         <div className="harvest-logistics-59" data-name="Harvest logistics">
-          <img alt="Harvest Logistics" className="text-4" src="/figma/a6d46.png" loading="lazy" />
+          <img
+            alt="Harvest Logistics"
+            className="text-4"
+            src="/optimized/a6d46.webp"
+            width={1024}
+            height={1024}
+            decoding="async"
+            srcSet="/optimized/a6d46-480.webp 480w, /optimized/a6d46-800.webp 800w, /optimized/a6d46.webp 1024w"
+            sizes="(max-width: 767px) 100vw, 50vw"
+            loading="lazy"
+          />
         </div>
         <div className="story-copy-60" data-name="Story copy">
           <div className="section-heading-33" data-name="Story heading">
@@ -285,7 +437,17 @@ export default function HomePage() {
         </div>
         <div className="testimonial-75" data-name="Testimonial">
           <div className="portrait-76" data-name="Portrait">
-            <img alt="Portrait" className="text-13" src="/figma/beb9f.png" loading="lazy" />
+            <img
+              alt="Portrait"
+              className="text-13"
+              src="/optimized/beb9f.webp"
+              width={928}
+              height={1152}
+              decoding="async"
+              srcSet="/optimized/beb9f-480.webp 480w, /optimized/beb9f-800.webp 800w, /optimized/beb9f.webp 928w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+              loading="lazy"
+            />
           </div>
           <div className="quote-panel-77" data-name="Quote panel">
             <p className="text-78">“</p>

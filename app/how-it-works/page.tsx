@@ -1,5 +1,6 @@
 import { Cta } from "../../components/site";
-export const metadata = { title: "How it works" };
+import { pageMetadata } from "../../lib/seo";
+export const metadata = pageMetadata("/how-it-works");
 
 export default function HowItWorksPage() {
   return (
@@ -141,7 +142,17 @@ export default function HowItWorksPage() {
             </p>
           </div>
           <div className="story-image-112" data-name="Story image">
-            <img alt="Story Image" className="text-13" src="/figma/20258.png" loading="lazy" />
+            <img
+              alt="Story Image"
+              className="text-13"
+              src="/optimized/20258.webp"
+              width={1152}
+              height={928}
+              decoding="async"
+              srcSet="/optimized/20258-480.webp 480w, /optimized/20258-800.webp 800w, /optimized/20258.webp 1152w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>

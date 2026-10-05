@@ -1,6 +1,7 @@
 import { Cta } from "../../components/site";
 import { ContactForm } from "../../components/contact-form";
-export const metadata = { title: "Get in touch" };
+import { pageMetadata } from "../../lib/seo";
+export const metadata = pageMetadata("/contact");
 
 export default function ContactPage() {
   return (
@@ -81,7 +82,10 @@ export default function ContactPage() {
                 <img
                   alt="Abakaliki Map"
                   className="text-13"
-                  src="/figma/e0fe4.png"
+                  src="/optimized/e0fe4.webp"
+                  width={1584}
+                  height={672}
+                  decoding="async"
                   loading="lazy"
                 />
               </div>

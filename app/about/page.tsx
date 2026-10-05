@@ -1,6 +1,7 @@
 import { Cta } from "../../components/site";
 import { Faq } from "../../components/faq";
-export const metadata = { title: "About" };
+import { pageMetadata } from "../../lib/seo";
+export const metadata = pageMetadata("/about");
 
 export default function AboutPage() {
   return (
@@ -37,14 +38,29 @@ export default function AboutPage() {
         <div className="photo-mosaic-94" data-name="Photo mosaic">
           <div className="mission-detail-42" data-name="Wide mosaic">
             <div className="field-work-95" data-name="Field work">
-              <img alt="Field Work" className="text-13" src="/figma/05ea9.png" loading="lazy" />
+              <img
+                alt="Field Work"
+                className="text-13"
+                src="/optimized/05ea9.webp"
+                width={1584}
+                height={672}
+                decoding="async"
+                srcSet="/optimized/05ea9-480.webp 480w, /optimized/05ea9-800.webp 800w, /optimized/05ea9.webp 1584w"
+                sizes="(max-width: 767px) calc(100vw - 48px), 750px"
+                loading="lazy"
+              />
             </div>
             <div className="category-cards-52" data-name="Mosaic row">
               <div className="produce-harvest-96" data-name="Produce harvest">
                 <img
                   alt="Produce Harvest"
                   className="text-13"
-                  src="/figma/e75e5.png"
+                  src="/optimized/e75e5.webp"
+                  width={1376}
+                  height={768}
+                  decoding="async"
+                  srcSet="/optimized/e75e5-480.webp 480w, /optimized/e75e5-800.webp 800w, /optimized/e75e5.webp 1376w"
+                  sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
                   loading="lazy"
                 />
               </div>
@@ -55,7 +71,17 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="farmer-portrait-100" data-name="Farmer portrait">
-            <img alt="Farmer Portrait" className="text-13" src="/figma/0696c.png" loading="lazy" />
+            <img
+              alt="Farmer Portrait"
+              className="text-13"
+              src="/optimized/0696c.webp"
+              width={864}
+              height={1184}
+              decoding="async"
+              srcSet="/optimized/0696c-480.webp 480w, /optimized/0696c-800.webp 800w, /optimized/0696c.webp 864w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+              loading="lazy"
+            />
           </div>
         </div>
         <div className="impact-metrics-70" data-name="Impact metrics">
@@ -80,7 +106,17 @@ export default function AboutPage() {
       <div className="section-101" data-name="Section">
         <div className="mission-editorial-31" data-name="Mission editorial">
           <div className="farmer-community-102" data-name="Farmer community">
-            <img alt="Farmer Community" className="text-13" src="/figma/29ed7.png" loading="lazy" />
+            <img
+              alt="Farmer Community"
+              className="text-13"
+              src="/optimized/29ed7.webp"
+              width={1024}
+              height={1024}
+              decoding="async"
+              srcSet="/optimized/29ed7-480.webp 480w, /optimized/29ed7-800.webp 800w, /optimized/29ed7.webp 1024w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+              loading="lazy"
+            />
           </div>
           <div className="mission-copy-103" data-name="Mission copy">
             <div className="section-heading-104" data-name="Section heading">
@@ -142,7 +178,17 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="story-image-112" data-name="Story image">
-            <img alt="Story Image" className="text-13" src="/figma/66ff7.png" loading="lazy" />
+            <img
+              alt="Story Image"
+              className="text-13"
+              src="/optimized/66ff7.webp"
+              width={1152}
+              height={928}
+              decoding="async"
+              srcSet="/optimized/66ff7-480.webp 480w, /optimized/66ff7-800.webp 800w, /optimized/66ff7.webp 1152w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
@@ -152,7 +198,10 @@ export default function AboutPage() {
             <img
               alt="Registration Document"
               className="text-13"
-              src="/figma/f85cc.png"
+              src="/optimized/f85cc.webp"
+              width={1200}
+              height={896}
+              decoding="async"
               loading="lazy"
             />
           </div>

@@ -1,5 +1,6 @@
 import { Cta } from "../../components/site";
-export const metadata = { title: "Founder & team" };
+import { pageMetadata } from "../../lib/seo";
+export const metadata = pageMetadata("/team");
 
 export default function TeamPage() {
   return (
@@ -19,7 +20,17 @@ export default function TeamPage() {
       <div className="section-30" data-name="Section">
         <div className="mission-editorial-31" data-name="Founder profile">
           <div className="founder-portrait-119" data-name="Founder portrait">
-            <img alt="Founder Portrait" className="text-13" src="/figma/87869.png" loading="lazy" />
+            <img
+              alt="Founder Portrait"
+              className="text-13"
+              src="/optimized/87869.webp"
+              width={1024}
+              height={1024}
+              decoding="async"
+              srcSet="/optimized/87869-480.webp 480w, /optimized/87869-800.webp 800w, /optimized/87869.webp 1024w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+              loading="lazy"
+            />
           </div>
           <div className="founder-story-120" data-name="Founder story">
             <p className="text-121">{`Founder & CEO`}</p>
@@ -57,7 +68,17 @@ export default function TeamPage() {
             </p>
           </div>
           <div className="story-image-112" data-name="Story image">
-            <img alt="Story Image" className="text-13" src="/figma/987ea.png" loading="lazy" />
+            <img
+              alt="Story Image"
+              className="text-13"
+              src="/optimized/987ea.webp"
+              width={1152}
+              height={928}
+              decoding="async"
+              srcSet="/optimized/987ea-480.webp 480w, /optimized/987ea-800.webp 800w, /optimized/987ea.webp 1152w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
@@ -75,21 +96,51 @@ export default function TeamPage() {
             <p className="text-128">Building the connective tissue of Nigerian agriculture.</p>
             <Cta href="/contact?inquiry=careers">Join our team</Cta>
             <div className="team-group-129" data-name="Team group">
-              <img alt="Team Group" className="text-13" src="/figma/82798.png" loading="lazy" />
+              <img
+                alt="Team Group"
+                className="text-13"
+                src="/optimized/82798.webp"
+                width={512}
+                height={467}
+                decoding="async"
+                srcSet="/optimized/82798-480.webp 480w, /optimized/82798.webp 512w"
+                sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+                loading="lazy"
+              />
             </div>
           </div>
           <div className="mission-detail-42" data-name="Team cards">
             <div className="category-cards-52" data-name="Team row">
               <div className="team-portrait-130" data-name="Team portrait">
                 <div className="portrait-131" data-name="Portrait">
-                  <img alt="Portrait" className="text-13" src="/figma/54dc8.png" loading="lazy" />
+                  <img
+                    alt="Portrait"
+                    className="text-13"
+                    src="/optimized/54dc8.webp"
+                    width={1024}
+                    height={1024}
+                    decoding="async"
+                    srcSet="/optimized/54dc8-480.webp 480w, /optimized/54dc8-800.webp 800w, /optimized/54dc8.webp 1024w"
+                    sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+                    loading="lazy"
+                  />
                 </div>
                 <p className="text-132">Farmer success</p>
                 <p className="text-133">Ebonyi field network</p>
               </div>
               <div className="team-portrait-130" data-name="Team portrait">
                 <div className="portrait-131" data-name="Portrait">
-                  <img alt="Portrait" className="text-13" src="/figma/9acbb.png" loading="lazy" />
+                  <img
+                    alt="Portrait"
+                    className="text-13"
+                    src="/optimized/9acbb.webp"
+                    width={1024}
+                    height={1024}
+                    decoding="async"
+                    srcSet="/optimized/9acbb-480.webp 480w, /optimized/9acbb-800.webp 800w, /optimized/9acbb.webp 1024w"
+                    sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+                    loading="lazy"
+                  />
                 </div>
                 <p className="text-132">Buyer partnerships</p>
                 <p className="text-133">National sourcing</p>
@@ -98,14 +149,34 @@ export default function TeamPage() {
             <div className="category-cards-52" data-name="Team row">
               <div className="team-portrait-130" data-name="Team portrait">
                 <div className="category-image-54" data-name="Portrait">
-                  <img alt="Portrait" className="text-13" src="/figma/be761.png" loading="lazy" />
+                  <img
+                    alt="Portrait"
+                    className="text-13"
+                    src="/optimized/be761.webp"
+                    width={1200}
+                    height={896}
+                    decoding="async"
+                    srcSet="/optimized/be761-480.webp 480w, /optimized/be761-800.webp 800w, /optimized/be761.webp 1200w"
+                    sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+                    loading="lazy"
+                  />
                 </div>
                 <p className="text-132">Trade operations</p>
                 <p className="text-133">Logistics coordination</p>
               </div>
               <div className="team-portrait-130" data-name="Team portrait">
                 <div className="category-image-54" data-name="Portrait">
-                  <img alt="Portrait" className="text-13" src="/figma/7e9d8.png" loading="lazy" />
+                  <img
+                    alt="Portrait"
+                    className="text-13"
+                    src="/optimized/7e9d8.webp"
+                    width={1200}
+                    height={896}
+                    decoding="async"
+                    srcSet="/optimized/7e9d8-480.webp 480w, /optimized/7e9d8-800.webp 800w, /optimized/7e9d8.webp 1200w"
+                    sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+                    loading="lazy"
+                  />
                 </div>
                 <p className="text-132">Community onboarding</p>
                 <p className="text-133">{`Language & voice support`}</p>

@@ -1,5 +1,6 @@
 import { Cta } from "../../components/site";
-export const metadata = { title: "For buyers" };
+import { pageMetadata } from "../../lib/seo";
+export const metadata = pageMetadata("/for-buyers");
 
 export default function ForBuyersPage() {
   return (
@@ -33,7 +34,12 @@ export default function ForBuyersPage() {
             <img
               alt="Warehouse Produce"
               className="text-13"
-              src="/figma/4d9b0.png"
+              src="/optimized/4d9b0.webp"
+              width={1152}
+              height={928}
+              decoding="async"
+              srcSet="/optimized/4d9b0-480.webp 480w, /optimized/4d9b0-800.webp 800w, /optimized/4d9b0.webp 1152w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
               loading="lazy"
             />
           </div>
@@ -151,7 +157,17 @@ export default function ForBuyersPage() {
             </p>
           </div>
           <div className="story-image-112" data-name="Story image">
-            <img alt="Story Image" className="text-13" src="/figma/63458.png" loading="lazy" />
+            <img
+              alt="Story Image"
+              className="text-13"
+              src="/optimized/63458.webp"
+              width={1152}
+              height={928}
+              decoding="async"
+              srcSet="/optimized/63458-480.webp 480w, /optimized/63458-800.webp 800w, /optimized/63458.webp 1152w"
+              sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 520px"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
